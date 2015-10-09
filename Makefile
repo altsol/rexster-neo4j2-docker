@@ -1,4 +1,4 @@
-NAME = docker.altsol.gr/rexster-neo4j2
+NAME = altsol/rexster-neo4j2
 VERSION = 2.6.0
 
 .PHONY: all build tag_latest
