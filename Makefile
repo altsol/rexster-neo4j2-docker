@@ -16,3 +16,6 @@ prepare_neo4j2:
 
 cleanup:
 	rm -rf neo4j2-ext/target
+
+test:
+	env NAME=$(NAME) VERSION=$(VERSION) ./test.sh
