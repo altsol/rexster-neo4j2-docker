@@ -21,7 +21,7 @@ COPY neo4j2-ext/target/dependency/* /rexster-server/ext/lib/
 RUN mv /rexster-server/ext/lib/blueprints-neo4j2-graph-*.jar /rexster-server/ext/
 
 # install custom rexster config file
-COPY rexster-neo4j2.xml /rexster-server/config/
+COPY rexster-neo4j2.tpl.xml /rexster-server/config/
 
 # install rexster service
 RUN mkdir /etc/service/rexster
